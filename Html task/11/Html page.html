@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML Input Types</title>
+</head>
+<body>
+    <h2>HTML Form with All Input Types</h2>
+
+    <form action="/submit" method="POST">
+
+        <!-- Text Input -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" value="Sample Text"><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="user@example.com"><br><br>
+
+        <!-- Number Input -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" value="10"><br><br>
+
+        <!-- Date Input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="2025-03-08"><br><br>
+
+        <!-- Time Input -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" value="14:00"><br><br>
+
+        <!-- Color Picker -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color" value="#ff5733"><br><br>
+
+        <!-- File Upload -->
+        <label for="file">File Upload:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- URL Input -->
+        <label for="url">Website URL:</label>
+        <input type="url" id="url" name="url" value="https://example.com"><br><br>
+
+        <!-- Search Input -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search" placeholder="Search here..."><br><br>
+
+        <!-- Range Slider -->
+        <label for="range">Satisfaction Level:</label>
+        <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+
+        <!-- Telephone Input -->
+        <label for="tel">Phone Number:</label>
+        <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" value="9876543210"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" checked>
+        <label for="subscribe">Subscribe to Newsletter</label><br><br>
+
+        <!-- Dropdown (Select) -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="India" selected>India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30">This is a sample message.</textarea><br><br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" id="hidden_data" name="hidden_data" value="secret_value">
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
